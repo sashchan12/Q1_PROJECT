@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 PROJECT CONTACT FORM/PAGE 2</title>
+	<style>
+		body{
+			margin: 0;
+			font-family: serif;
+			background-color: #cfa7ff;
+		}
+
+		.header{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #9b59b6;
+			padding: 10px 30px;
+		}
+
+		.logo img{
+			height: 70px;
+			margin-right: 10px;
+		}
+
+		.nav button{
+			background-color: #fff;
+			border: none;
+			padding: 12px 20px;
+			border-radius: 5px;
+			font-weight: bold;
+			cursor:pointer;
+			margin-left: 10px;
+		}
+
+		.nav button:hover{
+			background-color: #cfa7ff;
+			transition: ease 0.5s;
+			border: none;
+			padding: 12px 20px;
+			border-radius: 5px;
+			font-weight: bosld;
+			cursor:pointer;
+			margin-left: 10px;
+		}
+
+		
+		.main{
+			color: white;
+			text-shadow: 0.5px 0.5px black;
+		}
+
+		.welcome{
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			font-size: 45px;
+			margin-top: 15px;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 10px;
+		}
+
+		h1{
+			margin-bottom: 5px;
+		}
+
+		h2{
+			margin-top: 5px;
+			font-size: 45px;
+		}
+
+		.form-container{
+			background-color: white;
+			box-shadow: 0.5px 1px black;
+			padding-top: 30px;
+			padding-bottom: 50px;
+			border-radius: 5px;
+			align-content: center;
+			color: black;
+			text-shadow: none;
+			margin: 0 auto;
+			width: 75%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+
+		label{
+			font-weight: bold;
+			font-size: 30px;
+			margin: 10px 0 5px;
+			display: block;
+			color: black;
+		}
+
+		input, select, textarea, buttons{
+			width: 90%;
+			padding: 5px;
+			margin-left: 15px;
+			margin-right: 15px;
+			border: 1px solid #000;
+			border-radius: 5px;
+			font-size: 15px;
+		}
+
+		.option-label{
+			display: inline-flex;
+			align-items: center;
+			margin-right: 10px;
+			font-weight: normal;
+
+		}
+
+		.option-label input{
+			margin-right: 5px;
+			width: auto;
+		}
+
+		input[type="submit"],
+		input[type="reset"]{
+			background: #9b59b6;
+			color: white;
+			cursor: pointer;
+			border: none;
+			transition: background 0.3s;
+			margin-top: 30px;
+		}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button{
+			background: #b065cf;
+
+		}
+
+		.form-buttons{
+			display: flex;
+			justify-content: space-between;
+			gap: 10px;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+
+<div class="header">
+	<div class="logo"><img src="1759791919-153.png"></div>
+	<div class="nav">
+		<a href="https://drive.google.com/drive/folders/1mgtE8Mq1-U7nzUJkQNX2M2TVOYn7S3N-"><button>MY WORK</button><a>
+		<a href="AN_ICT9Emerald_Q1Project_Chan_Sashia.html"><button>GO BACK</button></a>
+		<a href="mailto:chan.sst@obmontessori.edu.ph"><button>GMAIL</button></a>
+	</div>
+</div>
+
+<div class="main">
+	<div class="welcome">
+		<h1><b>CONTACT ME!</b></h1>
+		<h2>Kindly fill out all parts of the form below.</h2>
+	</div>
+
+<div class="form-container">
+		<form>
+			<label for="text">Your Name:</label>
+			<input type="text" id="text" name="text">
+
+			<br>
+			<br>
+
+			<label for="email">Your Personal Email:</label>
+			<input type="text" id="email" name="email">
+
+			<br>
+			<br>
+
+		   <label for="textarea">Your message/query for me:</label>
+	       <textarea id="textarea" name="recomnmendation" rows="4"></textarea>
+
+			<br>
+			<br>
+
+			<label>💭 How do you find my website? Select all that apply:</label>
+
+	     	<label class="option-label"><input type="checkbox" id="box1" name="checkbox" value="Informative">🧠 Informative</label>
+
+	     	<label class="option-label"><input type="checkbox" id="box2" name="checkbox" value="Helpful">😃 Helpful</label>
+
+	     	<label class="option-label"><input type="checkbox" id="box3" name="checkbox" value="Just">👌 Just Right</label>
+
+	     	<label class="option-label"><input type="checkbox" id="box4" name="checkbox" value="Plain">😐 Plain</label>
+
+	     	<label class="option-label"><input type="checkbox" id="box5" name="checkbox" value="Laggy">👾 Laggy</label>
+
+	     	<br>
+	     	<br>
+
+	     	<label>⭐️ Rate my Website! 5 being the highest:</label>
+			
+			<label class="option-label"><input type="radio" id="option1" name="radio" value="1star">1⭐️</label>
+
+			<label class="option-label"><input type="radio" id="option2" name="radio" value="2stars">2⭐️</label>
+
+			<label class="option-label"><input type="radio" id="option3" name="radio" value="3stars">3⭐️</label>
+
+			<label class="option-label"><input type="radio" id="option4" name="radio" value="4stars">4⭐️</label>
+
+			<label class="option-label"><input type="radio" id="option5" name="radio" value="5stars">5⭐️</label>
+
+			<br>
+			<br>
+
+			<label for="dropdown">🌍 Where do I know you from?:</label>
+	     	<select id="dropdown" name="dropdown">
+	     		<option value="option1">School</option>
+	     		<option value="option2">Gymnastics</option>
+	     		<option value="option3">Social Media</option>
+	     		<option value="option4">Mutual Friend</option>
+	     		<option value="option5">The Area</option>
+	     		<option value="option6">Others</option>
+	       </select>
+
+
+
+	       <div class="form-buttons">
+	       	<input type="submit" value="Submit">
+	       	<input type="reset" value="Reset">
+	       </div>
+		</form>
+
+</body>
+</html>
